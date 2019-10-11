@@ -51,8 +51,8 @@ button:active{
 }
 
 .save-btn {
-  border-color: #e2536b;
-  background-color: #e2536b;
+  border-color: #5dabd8;
+  background-color: #5dabd8;
   display: block;
   margin: 0 auto;
   width: 200px;
@@ -60,7 +60,7 @@ button:active{
 }
 
 .save-btn:hover {
-  color: #e2536b;
+  color: #5dabd8cc;
 }
 
 .saved {

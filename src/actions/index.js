@@ -9,7 +9,7 @@ export const getAnimal = animal => {
     dispatch({ type: FETCH_START });
     axios
       .get(
-        `https://cors-anywhere.herokuapp.com/http://shibe.online/api/${animal}?count=1&httpsUrls=true`
+        `https://cors-anywhere.herokuapp.com/http://shibe.online/api/${animal}?count=2&httpsUrls=true`
       )
       .then(res => {
         dispatch({ type: FETCH_SUCCESS, payload: res.data[0] });

@@ -15,7 +15,7 @@ const AnimalView = () => {
   return (
     <>
       <div className="buttons">
-        <button onClick={() => changeAnimal("shibes")}>new shibe</button>
+        <button onClick={() => changeAnimal("shibes")}>new dog</button>
         <button onClick={() => changeAnimal("birds")}>new bird</button>
         <button onClick={() => changeAnimal("cats")}>new cat</button>
       </div>
